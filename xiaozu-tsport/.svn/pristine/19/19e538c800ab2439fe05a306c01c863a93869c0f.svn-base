@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xiaozu-tsport</artifactId>
+        <groupId>com.xiaozu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaozu.tsport.interfaces</groupId>
+    <artifactId>tsport-interfaces</artifactId>
+
+    <description>接口定义</description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.xiaozu.tsport.common</groupId>
+            <artifactId>tsport-common</artifactId>
+            <version>${common.version}</version>
+        </dependency>
+    </dependencies>
+</project>
